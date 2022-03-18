@@ -36,7 +36,6 @@ p{
 #services{
     background: radial-gradient(49.96% 49.96% at 50% 50.04%, rgba(47, 46, 46, 0.87) 3.5%, #2F2E2E 98.28%);
     display: flex;
-    min-width: 100vw;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -94,7 +93,7 @@ p{
 #services > .mainbox > .box > .content > .text > .melange > .line{
     content: '';
     width: 32vw;
-    height: 1px;
+    height: 0px;
     border-bottom: #B67D27 dashed;
 }
 #services > .mainbox > .box2 > .content > .text > .melange > .line{
@@ -170,7 +169,7 @@ p{
     padding: 0px 0px 0px 20px;
 }
 #services > .mainbox > .box2 > .content > .text > .melange > h3{
-    font-size: 1vw;
+    
 }
 /* #services > .mainbox > .box2 > .content > .text > .melange > h3::after{
     content: "";
@@ -198,6 +197,7 @@ p{
 
 #contact{
     background: radial-gradient(46.73% 85.57% at 3.27% 86.69%, rgba(48, 47, 47, 0.85) 0%, #302F2F 100%);
+    
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -394,7 +394,7 @@ footer{
 }
 .tFooter > .footer1> .title > h2{
     font-size: 2rem;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 .tFooter > .footer2 > .company > p{
