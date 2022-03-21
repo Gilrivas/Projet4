@@ -42,6 +42,7 @@ nav > .iconeburger > a > i {
 nav > ul{
     display: flex;
     padding: 0;
+    width: 100%;
 }
 
 nav > ul > li{
