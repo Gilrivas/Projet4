@@ -219,7 +219,7 @@ nav > ul > li > a:hover{
 
 /* SECTION NOS REALISATIONS */
 
-.nosréalisations{
+.nosrealisations{
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -228,12 +228,12 @@ nav > ul > li > a:hover{
     background: radial-gradient(87.6% 89.88% at 87.56% 12.4%, rgba(46, 45, 45, 0.88) 0%, #2E2D2D 46.35%);
 }
 
-.nosréalisations > #carousel{
+.nosrealisations > #carousel{
     width: 100%;
     height: 100vh;
 }
 
-.nosréalisations > #carousel > #slide1{
+.nosrealisations > #carousel > #slide1{
     width: 100%;
     height: 100vh ;
     display: flex;
@@ -241,7 +241,7 @@ nav > ul > li > a:hover{
     flex-direction: column;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu{
+.nosrealisations > #carousel > #slide1 > .visu{
     display: flex;
     align-items: center;
     width: 100%;
@@ -250,7 +250,7 @@ nav > ul > li > a:hover{
     justify-content: center;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container{
+.nosrealisations > #carousel > #slide1 > .visu > .container{
     display: flex;
     width: 100%;
     height: 80vh;
@@ -259,7 +259,7 @@ nav > ul > li > a:hover{
     flex-direction: column;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .title{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .title{
     display: flex;
     width: 100%;
     height: 17vh;
@@ -267,7 +267,7 @@ nav > ul > li > a:hover{
     margin: 20px 0px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .title > h2{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
     color: white;
     font-size: 75px;
     font-family: "PhosphateRR";
@@ -281,7 +281,7 @@ nav > ul > li > a:hover{
 }
 
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
     display: flex;
     height: 55vh;
     width: 100%;
@@ -290,7 +290,7 @@ nav > ul > li > a:hover{
     margin: 20px 0px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
     width: 60%;
     height: 50vh;
     display: flex;
@@ -305,7 +305,7 @@ nav > ul > li > a:hover{
    justify-content: center;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
     width: 80%;
     height: 400px;
     background-image: url('../img/realisation_3.jpg');
@@ -315,7 +315,7 @@ nav > ul > li > a:hover{
     clip-path: polygon(10% 0, 70% 0%, 100% 0, 100% 86%, 91% 100%, 30% 100%, 0 100%, 0 15%);
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
     width: 60%;
     height: 40vh;
     display: flex;
@@ -325,7 +325,7 @@ nav > ul > li > a:hover{
     padding: 0px 20px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
     color: white;
     font-family:"OpenSans-Regular";
     font-size: 13px;
@@ -336,7 +336,7 @@ nav > ul > li > a:hover{
     text-align: center;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
     display: flex;
     position: relative;
     top: -56%;
@@ -348,7 +348,7 @@ nav > ul > li > a:hover{
    font-size: 40px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
     display: flex;
     position: relative;
     top: 58%;
@@ -356,17 +356,17 @@ nav > ul > li > a:hover{
     width: 8%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
     color: #B67D27;
    font-size: 40px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
     height: 25%;
     width: 65%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -376,7 +376,7 @@ nav > ul > li > a:hover{
     width: 65%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
     color: white;
     font-family:"OpenSans-Regular";
     font-size: 13px;
@@ -387,12 +387,12 @@ nav > ul > li > a:hover{
     text-align: center;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
     margin: 20px 0px;
     width: 100%; 
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
     background: none;
     outline: none;
     border: none;
@@ -402,7 +402,7 @@ nav > ul > li > a:hover{
     padding: 0;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
     list-style: none;
     text-decoration: none;
     font-family: "PhosphateRR";
@@ -411,7 +411,7 @@ nav > ul > li > a:hover{
     position: relative;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a::before{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a::before{
     content: "";
     position: absolute;
     width: 70%;
@@ -421,23 +421,23 @@ nav > ul > li > a:hover{
     transition: all 0.3s ease-in-out;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .button > button > a:hover::before{
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .button > button > a:hover::before{
     width: 100%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > span{
+.nosrealisations > #carousel > #slide1 > .visu > .container > span{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > span > ul{
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
    display: flex;
    margin: 10px 0px;
    padding: 0;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > span > ul > li{
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li{
     width: 20px;
     height: 20px;
     border: 2px solid #2E2C2C;
@@ -448,7 +448,7 @@ nav > ul > li > a:hover{
     border-radius: 50%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > span > ul > li:hover{
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li:hover{
     background: #e5e5e5;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -499,24 +499,24 @@ nav > ul > li > a:hover{
         font-size: 69px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .title {
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title {
         margin: 0;
         height: 9vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .title > h2 {
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2 {
         font-size: 55px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
         margin: 40px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
         height: 50vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container {
+    .nosrealisations > #carousel > #slide1 > .visu > .container {
         height: auto;
     }
 
@@ -524,7 +524,7 @@ nav > ul > li > a:hover{
         font-size: 25px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
         top: 46%;
     }
 }
@@ -568,27 +568,27 @@ nav > ul > li > a:hover{
         font-size: 24px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu{
+    .nosrealisations > #carousel > #slide1 > .visu{
         height: 89vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container{
+    .nosrealisations > #carousel > #slide1 > .visu > .container{
         flex-direction: column;
         align-items: flex-end;
         height: 77vh;
     }
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
         flex-direction: column;
         align-items: flex-start;
         margin: 50px 0px;
         height: 67vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
         height: 25vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
         width: 100%;
     }
 
@@ -597,45 +597,45 @@ nav > ul > li > a:hover{
         height: 220px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
         margin: 30px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
         text-align: left;
         margin: 20px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
         width: 84%;
         display: block;
         height: 10vh;
         margin: 20px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
         text-align: left;
         position: relative;
         top: -23%;
         right: -5%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
         left: -9%;
         top: -16%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
         font-size: 30px;
 
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
         position: relative;
         right: -103%;
         top: 11%;
     }
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
         font-size: 30px;
     }
 
@@ -643,21 +643,21 @@ nav > ul > li > a:hover{
         text-align: left;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > span{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span{
         position: absolute;
         top: 130%;
         right: 3%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > span > ul{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
         flex-direction: column;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > span > ul > li{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li{
         margin: 10px 20px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .title{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title{
         height: 11vh;
     }
 
@@ -685,7 +685,7 @@ nav > ul > li > a:hover{
         right: 41px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > span > ul{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
         right: 1%;
     }
 
@@ -722,56 +722,56 @@ nav > ul > li > a:hover{
         font-size: 19px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .title > h2{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
         font-size: 30px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
         height: 69vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
         margin: 30px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
         font-size: 20px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > span{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span{
         top: 107%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
         top: -31%;
         left: 1%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
         right: -1%;
         top: 14%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
         width: 100%;
        height: 14vh;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
         margin: 20px 0px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
         position: relative;
         top: -9%;
         right: -5%;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
         font-size: 25px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
         font-size: 25px;
     }
 }
