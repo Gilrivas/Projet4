@@ -1,0 +1,783 @@
+@font-face {
+    font-family: "PhosphateRR" ;
+    src: url(../fonts/PhosphateRR\ Solid.ttf);
+    }
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+header{
+    width: 100%;
+    min-height: 73vh;
+    background: radial-gradient(61.59% 119.66% at 100% 38.41%, rgba(53, 43, 43, 0.77) 0%, #2E2C2C 86.77%);
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav > .iconeburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > .iconeburger > a > i {
+    color: white;
+    font-size: 30px;
+}
+
+nav > ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+nav > ul > li{
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    font-family:"PhosphateRR";
+}
+
+nav > ul > li > a{
+    position: relative;
+    color:white;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+nav > ul > li > a:hover{
+    color: #B67D27;
+}
+
+.none{
+    display: none !important;
+}
+
+.fa-align-left{
+    display: none;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+}
+
+.icone > a{
+    padding: 10px 10px;
+}
+
+.icone > a > i{
+    position: relative;
+    color:white;
+    transition: 0.5s;
+    z-index: 3;
+}
+
+.icone > a:hover > i{
+    color: #B67D27;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container > .iconetelephone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 311px;
+    right: 15px;
+}
+
+
+.container > .iconetelephone > a{
+    text-decoration: none;
+}
+
+.container > .iconetelephone > a > i{
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 20px 20px;
+    color: #b67d27;
+    font-size: 30px;
+}
+
+.fa-phone-flip{
+    display: none;
+    font-size: 1.4rem;
+    margin-right: 10px;
+}
+
+
+.container > .gauche{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+    top: -5%;
+}
+
+.container > .gauche > h1{
+    color: white;
+    font-family: "PhosphateRR";
+    font-size: 128px;
+    line-height: 140px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+.container > .gauche > p{
+    color: white;
+    font-family:"OpenSans-Regular";
+    font-size: 13px;
+    line-height: 17.7px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+    text-align: justify;
+    padding: 40px 0px;
+}
+
+.container > .gauche > .button{
+    margin: 50px 0px;
+    width: 100%; 
+}
+
+.container > .gauche > .button > button{
+    background: none;
+    outline: none;
+    border: none;
+    font-style: normal;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+}
+
+.container > .gauche > .button > button > a{
+    list-style: none;
+    text-decoration: none;
+    font-family: "PhosphateRR";
+    color: white;
+    font-size: 34px;
+    position: relative;
+}
+
+.container > .gauche > .button > button > a::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    bottom: -8px; 
+    border-bottom: solid#B67D27;
+    transition: all 0.3s ease-in-out;
+}
+
+.container > .gauche > .button > button > a:hover::before{
+    width: 100%;
+}
+
+.container > .image{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-end;
+}
+
+.container > .image > img{
+    width: 545px;
+    height: 605px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+
+}
+
+/* SECTION NOS REALISATIONS */
+
+.nosrealisations{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(87.6% 89.88% at 87.56% 12.4%, rgba(46, 45, 45, 0.88) 0%, #2E2D2D 46.35%);
+}
+
+.nosrealisations > #carousel{
+    width: 100%;
+    height: 100vh;
+}
+
+.nosrealisations > #carousel > #slide1{
+    width: 100%;
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .title{
+    display: flex;
+    width: 100%;
+    height: 17vh;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
+    color: white;
+    font-size: 75px;
+    font-family: "PhosphateRR";
+    line-height: 111px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+}
+
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+    display: flex;
+    height: 55vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
+    width: 80%;
+    height: 400px;
+    background-image: url('../img/realisation_3.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    clip-path: polygon(10% 0, 70% 0%, 100% 0, 100% 86%, 91% 100%, 30% 100%, 0 100%, 0 15%);
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+    color: white;
+    font-family:"OpenSans-Regular";
+    font-size: 13px;
+    line-height: 17.7px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+    display: flex;
+    position: relative;
+    top: -56%;
+    left: -14%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+    color: #B67D27;
+   font-size: 40px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+    display: flex;
+    position: relative;
+    top: 58%;
+    right: -12%;
+    width: 8%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+    color: #B67D27;
+   font-size: 40px;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+    height: 25%;
+    width: 65%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #B67D27;
+    border-bottom: 1px solid #B67D27;
+    height: 30%;
+    width: 65%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+    color: white;
+    font-family:"OpenSans-Regular";
+    font-size: 13px;
+    line-height: 17.7px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
+    margin: 20px 0px;
+    width: 100%; 
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
+    background: none;
+    outline: none;
+    border: none;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
+    list-style: none;
+    text-decoration: none;
+    font-family: "PhosphateRR";
+    color: white;
+    font-size: 34px;
+    position: relative;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a::before{
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    bottom: -8px; 
+    border-bottom: solid#B67D27;
+    transition: all 0.3s ease-in-out;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .button > button > a:hover::before{
+    width: 100%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
+   display: flex;
+   margin: 10px 0px;
+   padding: 0;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #2E2C2C;
+    background: rgba(255, 255, 255, 0.7);
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li:hover{
+    background: #e5e5e5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1024px){
+
+
+    .fa-align-left{
+        display: none;
+    }
+
+    .fa-phone-flip{
+        display: none;
+    }
+
+      header{
+        min-height: 82vh;
+    }
+
+    .container > .iconetelephone{
+        display: none;
+    }
+
+    nav > .iconeburger{
+        display: none;
+    }
+
+    .container > .image > img{
+        height: 909px;
+        width: 529px;
+    }
+
+    .container > .image{
+        display: flex;
+    }
+
+    .container > .gauche > p{
+        padding: 10px 0px;
+    }
+
+
+    .container > .gauche > h1 {
+        line-height: 107px;
+        font-size: 69px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title {
+        margin: 0;
+        height: 9vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2 {
+        font-size: 55px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+        margin: 40px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+        height: 50vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container {
+        height: auto;
+    }
+
+    .container > .gauche > .button > button > a{
+        font-size: 25px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+        top: 46%;
+    }
+}
+@media  screen and (max-width:800px) {
+
+    .fa-align-left{
+        display: block;
+    }
+
+    nav > .iconeburger{
+        display: flex;
+    }
+
+    header{
+        min-height: 50vh;
+    }
+   
+    nav > ul > li > a{
+        display: none;
+    }
+    
+    .container > .image > img{
+        width: 401px;
+        height: 684px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
+        width: 100%;
+        height: 222px;
+    }
+
+    .container > .gauche > h1 {
+        font-size: 84px;
+        line-height: 64px;
+    }
+
+    .container > .gauche > p{
+        padding: 40px 0px;
+    }
+
+    .container > .gauche > .button{
+        margin: 0;
+    }
+
+    .container > .gauche > .button > button > a{
+        font-size: 24px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu{
+        height: 89vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 77vh;
+    }
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 50px 0px;
+        height: 67vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
+        height: 25vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
+        width: 100%;
+    }
+
+    .nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
+        width: 97%;
+        height: 220px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+        margin: 30px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+        text-align: left;
+        margin: 20px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+        width: 84%;
+        display: block;
+        height: 10vh;
+        margin: 20px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+        text-align: left;
+        position: relative;
+        top: -23%;
+        right: -5%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+        left: -9%;
+        top: -16%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+        font-size: 30px;
+
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+        position: relative;
+        right: -103%;
+        top: 11%;
+    }
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+        font-size: 30px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
+        text-align: left;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span{
+        position: absolute;
+        top: 130%;
+        right: 3%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
+        flex-direction: column;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul > li{
+        margin: 10px 20px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title{
+        height: 11vh;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .fa-align-left{
+        display: block;
+    }
+
+    .fa-phone-flip{
+        display: flex;
+        position: relative;
+        right: 44px;
+    }
+
+    .container > .image > img{
+        display: none;
+    }
+
+    .container > .iconetelephone{
+        display: flex;
+        top: 289px;
+        right: 41px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
+        right: 1%;
+    }
+
+    nav{
+        padding: 10px 10px;
+    }
+    
+    header{
+        min-height: 86vh;
+    }
+
+    .container > .gauche{
+        padding: 0px 10px;
+        height: 60vh;
+    }
+
+    .container > .gauche > h1{
+        font-size: 92px;
+        line-height: 73px;
+    }
+
+    .container > .gauche > p{
+        font-size: 12px;
+        width: 82%;
+        padding: 25px 0px;
+    }
+
+
+    .container > .gauche > .button{
+        margin: 30px 0px;
+    }
+
+    .container > .gauche > .button > button > a{
+        font-size: 19px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
+        font-size: 30px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
+        height: 69vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button{
+        margin: 30px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button > a{
+        font-size: 20px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > span{
+        top: 107%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
+        top: -31%;
+        left: 1%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
+        right: -1%;
+        top: 14%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
+        width: 100%;
+       height: 14vh;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
+        margin: 20px 0px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
+        position: relative;
+        top: -9%;
+        right: -5%;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+        font-size: 25px;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+        font-size: 25px;
+    }
+}
