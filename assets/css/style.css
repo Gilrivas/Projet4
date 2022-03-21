@@ -299,7 +299,7 @@ nav > ul > li > a:hover{
     padding: 0px 20px;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
    display: flex;
    width: 100%;
    justify-content: center;
@@ -343,7 +343,7 @@ nav > ul > li > a:hover{
     left: -14%;
 }
 
-.nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
     color: #B67D27;
    font-size: 40px;
 }
@@ -551,6 +551,11 @@ nav > ul > li > a:hover{
         height: 684px;
     }
 
+    .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
+        width: 100%;
+        height: 222px;
+    }
+
     .container > .gauche > h1 {
         font-size: 84px;
         line-height: 64px;
@@ -639,7 +644,7 @@ nav > ul > li > a:hover{
         font-size: 30px;
     }
 
-    .nosréalisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
         text-align: left;
     }
 
