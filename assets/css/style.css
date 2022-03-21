@@ -1,6 +1,38 @@
 @font-face {
     font-family: "PhosphateRR" ;
     src: url(../fonts/PhosphateRR\ Solid.ttf);
+}
+
+@font-face{
+    font-family: "Open Sans";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+/*GLOBAL*/
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h2 , h3, a{
+    font-family: "PhosphateRR" , sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+p{
+    font-family: "Open sans", sans-serif;
+    color: white;
+}
+
+
+=======
     }
 
 @font-face {
@@ -455,6 +487,626 @@ nav > ul > li > a:hover{
     transition: all 0.3s ease;
 }
 
+/*SECTION SERVICES*/
+
+#services{
+    background: radial-gradient(49.96% 49.96% at 50% 50.04%, rgba(47, 46, 46, 0.87) 3.5%, #2F2E2E 98.28%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+#services > .mainbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+
+#services > .mainbox > .box > .content > .hidden{
+    display: none;
+}
+#services > .mainbox > .mainTitle{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+
+#services > .mainbox > .mainTitle >.title{
+    align-items: flex-end;
+    display: flex;
+    margin: 0px 0px 0px 75px;
+    
+    
+}
+#services > .mainbox > .mainTitle > .title > h3{
+    margin: 0px 20px;
+
+}
+
+#services > .mainbox > .mainTitle .title2{
+    margin: 0px 75px 0px 0px;
+     
+}
+
+#services > .mainbox > .mainTitle > .title > h3:hover{
+    line-height: 30px;
+    border-bottom: 5px solid #B67D27;
+}
+
+#services > .mainbox > .box > .content > .text{
+    margin: 50px 0px;
+}
+
+#services > .mainbox > .box > .content > .text > .melange > h3{
+    width: 25%;
+    margin: 10px 0px;
+    font-size: 1.5vw;
+}
+
+#services > .mainbox > .box > .content > .text > .melange > .line{
+    content: '';
+    width: 29vw;
+    height: 0px;
+    border-bottom: #B67D27 dashed;
+}
+#services > .mainbox > .box2 > .content > .text > .melange > .line{
+    content: '';
+    width: 29vw;
+    height: 0px;
+    border-bottom: #B67D27 dashed;
+}
+
+#services > .mainbox > .box > .content > .text > .melange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services > .mainbox > .box > .content > .text > .melange > p{
+    font-size: 1.5rem;
+    font-family: "PhosphateRR" , sans-serif;
+    color: #B67D27;
+    font-weight: 100;
+    padding: 0px 0px 0px 20px;
+
+}
+
+#services > .mainbox > .mainTitle >.title2 > h2{
+    
+    margin: 0px 75px;
+    font-size: 5rem;
+}
+
+#services > .mainbox > .box {
+   width: 45%;
+   margin-right: 10px;
+}
+
+#services > .mainbox > .box > .content > .text > p{
+    width: 94%;
+}
+
+#services > .mainbox > .box2{
+   width: 45%;
+   margin-left: 10px;
+}
+#services > .mainbox > .box2 > .content > .text > p{
+    width: 94%;
+
+}
+
+#services > .mainbox > .box2 > .content > .text > .melange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services > .mainbox > .box2 > .content > .text > .melange > p{
+    font-size: 1.5em;
+    color: #B67D27;
+    font-family: "PhosphateRR";
+    padding: 0px 0px 0px 20px;
+}
+
+#services > .mainbox > .box2 > .content > .text{
+    margin: 50px 0px;
+}
+
+#services > .mainbox > .box2 > .content > .text > .melange > h3{
+    width: 25%;
+    margin: 10px 0px;
+    font-size: 1.5vw;
+}
+
+/*SECTION CONTACT*/
+
+#contact{
+    background: radial-gradient(46.73% 85.57% at 3.27% 86.69%, rgba(48, 47, 47, 0.85) 0%, #302F2F 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+#contact > .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+#contact > .box  > .box2 > .title{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+}   
+#contact > .box > .box2 > .title > h2{
+    font-size: 5rem;
+}
+
+#contact > .box > .box2 > .title > a{
+    font-size: 1.5rem;
+    color: #B67D27;
+    margin: 15px 0px;
+    
+}
+
+#contact > .box > .box2 > .title > .emailLink {
+    text-decoration: underline;
+}
+
+
+
+.box3{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+
+    align-items: flex-start;
+}
+
+#contact > .box > .box3 > .formulaire{
+    display: flex;
+    width: 50%;
+    margin: 0px 0px;
+    
+    
+}
+
+#contact > .box > .box3  .formulaire > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#contact > .box > .box3 > .map{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > .box > .box3 .map > img{
+   width: 87%;
+}
+#contact > .box > .box3 > .formulaire > form > .np{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#contact > .box > .box3 > .formulaire > form > .np  > .nom{
+    width: 39%;
+    height: 60px;
+    background: transparent;
+    color: white;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    
+    
+}
+
+#contact > .box > .box3 > .formulaire > form > .np  > .nom::placeholder{
+    color: white;
+}
+
+
+#contact > .box > .box3 > .formulaire > form > .np > .prenom{
+    background: transparent;
+    width: 39%;
+    height: 60px;
+    color: white;
+    border-radius: 0px;
+    margin-left: 15px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    
+}
+#contact > .box > .box3 > .formulaire > form > .np >  .prenom::placeholder{
+    color: white;
+}
+
+
+#contact > .box > .box3 > .formulaire > form > .telephone{
+    background: transparent;
+    width: 80%;
+    height: 60px;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+
+}
+#contact > .box > .box3 > .formulaire > form > .telephone::placeholder{
+    color: white;
+}
+
+
+#contact > .box > .box3 > .formulaire > form > .email{
+    background: transparent;
+    width: 80%;
+    height: 60px;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+}
+
+#contact > .box > .box3 > .formulaire > form > .email::placeholder{
+    color: white;
+}
+
+
+#contact > .box > .box3 > .formulaire > form > .message{
+    background: transparent;
+    width: 80%;
+    height: 200px;
+    border-radius: 0px;
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+}
+
+#contact > .box > .box3 > .formulaire > form > .message::placeholder{
+    color: white;
+}
+
+
+input[type=submit]{
+    position: relative;
+    font-family: "PhosphateRR" , sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    background: transparent;
+    width: 40%;
+    color: white;
+    border: 0;
+    margin:  35px 0px 35px 0px;
+    cursor: pointer;
+}
+
+input[type=text]{
+    font-family: "Open Sans";
+}
+
+#contact > .box > .box3 > .formulaire > form > .lineFo{
+    position:relative;
+    }
+#contact > .box > .box3 > .formulaire > form > .lineFo:after {
+    content: '';
+    position: absolute;
+    width: 98px;
+    border: 2px solid #B67D27;
+    margin-left: -66px;
+    margin-top: -33px;
+    }
+
+
+/*FOOTER*/
+
+footer{
+    background: radial-gradient(50% 389.65% at 0% 92.16%, rgba(34, 32, 32, 0.83) 0%, #282525 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tFooter{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px;
+    
+}
+
+.footer1{
+    display: flex;
+    width: 95%;
+}
+
+.footer2{
+    display: flex;
+    
+    width: 95%;
+    
+}
+
+.tFooter > .footer2 > .company{
+    width: 35%; 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.tFooter  > .footer1 > .title{
+    width: 100%;
+    min-height: 5vh;
+}
+.tFooter > .footer1> .title > h2{
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.tFooter > .footer2 > .company > p{
+    width: 80%;
+    
+}
+
+.tFooter > .footer2 > .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.tFooter >  .footer2 >.legales{
+    display: flex;
+    align-items: flex-end;
+    width: 35%;
+    flex-direction: column;
+}
+
+.tFooter >  .footer2 >.legales > a{
+    font-family: "Open Sans", sans-serif ;
+}
+
+.tFooter >  .footer2 >.legales > p > span{
+    color: #B67D27;
+}
+
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width: 1085px) {
+
+    /*SERVICES*/
+
+    #services > .mainbox > .mainTitle{
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+    #services > .mainbox > .mainTitle > .title{
+        margin-top: 20px;
+        margin-left: 30px;
+        
+    }
+
+    #services > .mainbox > .mainTitle > .title2 > h2{
+        margin: 0px 45px;
+        font-size: 3.2rem;
+    }
+
+    #services > .mainbox > .box{
+        width: 90%;
+    }
+
+    #services > .mainbox > .box > .content > .text > .melange > .line{
+        width: 55vw;
+        margin: 0px 5px 0px 5px;
+    }
+
+    #services > .mainbox > .box > .content > .text > .melange > h3{
+        width: 30vw;
+        font-size: 4vw;
+
+    }
+    
+    #services > .mainbox > .box2 {
+        display: none;
+    }
+    
+    #services > .mainbox > .box > .content > .hidden{
+        display: inherit;
+    }
+
+    .services > .mainbox > .box > .content > .lineAf{
+        position:relative;
+        }
+
+    .lineAf:after {
+        content: '';
+        position: absolute;
+        width: 115px;
+        border: 2px solid #B67D27;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .lineFo:after {
+        content: '';
+        position: absolute;
+        width: 98px;
+        border: 2px solid #B67D27;
+        margin-left: 11px;
+        margin-top: -33px;
+        }
+    
+
+    /*CONTACT*/
+
+    #contact > .box > .box3 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #contact > .box > .box2 > .title {
+       
+        margin-top: 100px;
+    }
+    #contact > .box > .box2 > .title > h2{
+        font-size: 3rem;
+    }
+
+    #contact > .box > .box2 > .title > a{
+        font-size: 1.2rem;
+    }
+
+    #contact > .box > .box3 > .formulaire{
+        width: 90%;
+       
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np {
+        display: flex;
+        width: 100%;
+        justify-content: inherit;
+        margin: 0px 0px 0px 11px;
+     
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .prenom{
+        margin-left: 12px;
+
+    }
+
+    input[type=submit] {
+        text-align: left;
+        margin-left: 5px;
+    }
+        
+
+    #contact > .box > .box3 > .formulaire > form{
+        align-items: flex-start;
+        justify-content: inherit;
+        margin-left: 10px;  
+    }
+
+    #contact > .box > .box3 > .map{
+        width: 100%;
+    
+    }
+    #contact > .box > .box3 > .map > img{
+        width: 100%;
+    }
+
+   /*FOOTER*/
+
+   footer > .tFooter{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+   }
+   footer > .tFooter > .footer1{
+       min-height: 25vh;
+       align-items: flex-end;
+   }
+   footer > .tFooter > .footer1 > .title > h2{
+       text-align: center;
+   }
+   footer > .tFooter > .footer2{
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       width: 80%;
+       min-height: 75vh;
+       
+   }
+
+   .tFooter > .footer2 > .company{
+       justify-content: center;
+       text-align: center;
+       width: 70%;
+   }
+
+   .tFooter > .footer2 > .company > p {
+    width: 100%;
+}
+
+   .tFooter > .footer2 > .contact {
+       text-align: center;
+       width: 100%;
+   }
+
+   .tFooter > .footer2 >.legales {
+       align-items: center;
+       text-align: center;
+       width: 100%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   
+   
+   
+    #services > .mainbox > .box > .content > .text > .melange > .line{
+        width: 40vw;
+        margin: 0px 5px 0px 5px;
+    }
+
+
+
+    #contact > .box > .box3 > .formulaire > form > .np {
+        
+        flex-direction: column;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .nom {
+        width: 80%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .prenom {
+        width: 80%;
+        margin-left: 0px; 
+        margin-bottom: 10px;
+    }
+    #contact > .box > .box3 > .map{
+        width: 100%;
+    
+    }
+    #contact > .box > .box3 > .map > img{
+        width: 100%;
+    }
+}
+
 
 /* RESPONSIVE */
 
@@ -781,3 +1433,4 @@ nav > ul > li > a:hover{
         font-size: 25px;
     }
 }
+
