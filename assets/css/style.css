@@ -53,6 +53,10 @@ p{
     
     
 }
+
+#services > .mainbox > .box > .content > .hidden{
+    display: none;
+}
 #services > .mainbox > .mainTitle{
     display: flex;
     width: 100%;
@@ -87,19 +91,21 @@ p{
 }
 
 #services > .mainbox > .box > .content > .text > .melange > h3{
+    width: 25%;
     margin: 10px 0px;
+    font-size: 1.5vw;
 }
 
 #services > .mainbox > .box > .content > .text > .melange > .line{
     content: '';
-    width: 32vw;
+    width: 29vw;
     height: 0px;
     border-bottom: #B67D27 dashed;
 }
 #services > .mainbox > .box2 > .content > .text > .melange > .line{
     content: '';
-    width: 32vw;
-    height: 0.5vh;
+    width: 29vw;
+    height: 0px;
     border-bottom: #B67D27 dashed;
 }
 
@@ -117,20 +123,6 @@ p{
     padding: 0px 0px 0px 20px;
 
 }
-
-/* #services > .mainbox > .box > .content > .text > .melange > h3::after{
-    content: "";
-    width: 30vw;
-    border-bottom: #B67D27 dashed;
-    display:inline-block;
-    vertical-align:middle;
-
-} */
-/* #services > .mainbox > .box > .content > .text > .melange > h3::after{
-    
-        margin-right:-100%;
-        margin-left:1em;
-    } */
 
 #services > .mainbox > .mainTitle >.title2 > h2{
     
@@ -168,36 +160,21 @@ p{
     font-family: "PhosphateRR";
     padding: 0px 0px 0px 20px;
 }
-#services > .mainbox > .box2 > .content > .text > .melange > h3{
-    
-}
-/* #services > .mainbox > .box2 > .content > .text > .melange > h3::after{
-    content: "";
-    width: 30vw;
-    border-bottom: #B67D27 dashed;
-    display:inline-block;
-    vertical-align:middle;
-}
-
-#services > .mainbox > .box2 > .content > .text > .melange > h3::after{
-    
-    margin-right:-100%;
-    margin-left:1em;
-} */
 
 #services > .mainbox > .box2 > .content > .text{
     margin: 50px 0px;
 }
 
 #services > .mainbox > .box2 > .content > .text > .melange > h3{
+    width: 25%;
     margin: 10px 0px;
+    font-size: 1.5vw;
 }
 
 /*SECTION CONTACT*/
 
 #contact{
     background: radial-gradient(46.73% 85.57% at 3.27% 86.69%, rgba(48, 47, 47, 0.85) 0%, #302F2F 100%);
-    
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -206,11 +183,18 @@ p{
 
 #contact > .box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
     justify-content: center;
 }
-#contact > .box > .title{
+
+.box2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+#contact > .box  > .box2 > .title{
     display: flex;
     width: 90%;
     flex-direction: column;
@@ -218,31 +202,43 @@ p{
     align-items: flex-start;
     margin: 0px;
 }   
-#contact > .box > .title > h2{
+#contact > .box > .box2 > .title > h2{
     font-size: 5rem;
 }
 
-#contact > .box > .title > a{
+#contact > .box > .box2 > .title > a{
     font-size: 1.5rem;
     color: #B67D27;
     margin: 15px 0px;
     
 }
 
-#contact > .box > .title > .emailLink {
+#contact > .box > .box2 > .title > .emailLink {
     text-decoration: underline;
 }
 
-#contact > .box > .formulaire{
+
+
+.box3{
+    margin-top: 50px;
     display: flex;
+    width: 100%;
+
+    align-items: flex-start;
+}
+
+#contact > .box > .box3 > .formulaire{
+    display: flex;
+    width: 50%;
+    margin: 0px 0px;
     
     
 }
 
-#contact > .box >  .formulaire > form{
+#contact > .box > .box3  .formulaire > form{
     display: flex;
-    flex-direction: row;
-    width: 80%;
+    flex-direction: column;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -250,22 +246,25 @@ p{
 
 }
 
-#contact > .box > .map{
-    width: 40%;
-}
-
-#contact > .box > .map > img{
-   width: 90%;
-}
-#contact > .box >  .formulaire > form > .np{
+#contact > .box > .box3 > .map{
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    width: 80.5%;
+    justify-content: center;
+    align-items: center;
 }
 
-#contact > .box >  .formulaire > form > .np  > .nom{
-    width: 40%;
-    height: 40px;
+#contact > .box > .box3 .map > img{
+   width: 87%;
+}
+#contact > .box > .box3 > .formulaire > form > .np{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#contact > .box > .box3 > .formulaire > form > .np  > .nom{
+    width: 39%;
+    height: 60px;
     background: transparent;
     color: white;
     border-radius: 0px;
@@ -275,57 +274,58 @@ p{
     
 }
 
-#contact > .box >  .formulaire > form > .np  > .nom::placeholder{
+#contact > .box > .box3 > .formulaire > form > .np  > .nom::placeholder{
     color: white;
 }
 
 
-#contact > .box >  .formulaire > form > .np >  .prenom{
+#contact > .box > .box3 > .formulaire > form > .np > .prenom{
     background: transparent;
-    width: 40%;
-    height: 40px;
+    width: 39%;
+    height: 60px;
     color: white;
     border-radius: 0px;
+    margin-left: 15px;
     border: 1px solid white;
     margin-bottom: 10px;
     
 }
-#contact > .box >  .formulaire > form > .np >  .prenom::placeholder{
+#contact > .box > .box3 > .formulaire > form > .np >  .prenom::placeholder{
     color: white;
 }
 
 
-#contact > .box >  .formulaire > form > .telephone{
+#contact > .box > .box3 > .formulaire > form > .telephone{
     background: transparent;
     width: 80%;
-    height: 40px;
+    height: 60px;
     border-radius: 0px;
     border: 1px solid white;
     margin: 10px;
     color: white;
 
 }
-#contact > .box >  .formulaire > form > .telephone::placeholder{
+#contact > .box > .box3 > .formulaire > form > .telephone::placeholder{
     color: white;
 }
 
 
-#contact > .box >  .formulaire > form > .email{
+#contact > .box > .box3 > .formulaire > form > .email{
     background: transparent;
     width: 80%;
-    height: 40px;
+    height: 60px;
     border-radius: 0px;
     border: 1px solid white;
     margin: 10px;
     color: white;
 }
 
-#contact > .box >  .formulaire > form > .email::placeholder{
+#contact > .box > .box3 > .formulaire > form > .email::placeholder{
     color: white;
 }
 
 
-#contact > .box >  .formulaire > form > .message{
+#contact > .box > .box3 > .formulaire > form > .message{
     background: transparent;
     width: 80%;
     height: 200px;
@@ -335,21 +335,39 @@ p{
     color: white;
 }
 
-#contact > .box >  .formulaire > form > .message::placeholder{
+#contact > .box > .box3 > .formulaire > form > .message::placeholder{
     color: white;
 }
 
+
 input[type=submit]{
+    position: relative;
     font-family: "PhosphateRR" , sans-serif;
     font-size: 2rem;
     font-weight: 100;
     background: transparent;
-    width: 30%;
+    width: 40%;
     color: white;
     border: 0;
-    margin: 30px;
+    margin:  35px 0px 35px 0px;
+    cursor: pointer;
 }
 
+input[type=text]{
+    font-family: "Open Sans";
+}
+
+#contact > .box > .box3 > .formulaire > form > .lineFo{
+    position:relative;
+    }
+#contact > .box > .box3 > .formulaire > form > .lineFo:after {
+    content: '';
+    position: absolute;
+    width: 98px;
+    border: 2px solid #B67D27;
+    margin-left: -66px;
+    margin-top: -33px;
+    }
 
 
 /*FOOTER*/
@@ -362,11 +380,12 @@ footer{
 }
 
 .tFooter{
-    min-height: 40vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 35px;
     
 }
 
@@ -424,7 +443,12 @@ footer{
     color: #B67D27;
 }
 
+
+/* MEDIA QUERY*/
+
 @media screen and (max-width: 1085px) {
+
+    /*SERVICES*/
 
     #services > .mainbox > .mainTitle{
         flex-direction: column-reverse;
@@ -433,18 +457,196 @@ footer{
     #services > .mainbox > .mainTitle > .title{
         margin-top: 20px;
         margin-left: 30px;
+        
     }
 
     #services > .mainbox > .mainTitle > .title2 > h2{
         margin: 0px 45px;
+        font-size: 3.2rem;
+    }
+
+    #services > .mainbox > .box{
+        width: 90%;
+    }
+
+    #services > .mainbox > .box > .content > .text > .melange > .line{
+        width: 55vw;
+        margin: 0px 5px 0px 5px;
+    }
+
+    #services > .mainbox > .box > .content > .text > .melange > h3{
+        width: 30vw;
+        font-size: 4vw;
+
     }
     
-    /* #services > .mainbox > .box > .content > .text > .melange > h3::after{
-        content: "";
-        width: 24vw;
-        border-bottom: #B67D27 dashed;
-        display:inline-block;
-        vertical-align:middle;
+    #services > .mainbox > .box2 {
+        display: none;
+    }
     
-    } */
+    #services > .mainbox > .box > .content > .hidden{
+        display: inherit;
+    }
+
+    .services > .mainbox > .box > .content > .lineAf{
+        position:relative;
+        }
+
+    .lineAf:after {
+        content: '';
+        position: absolute;
+        width: 115px;
+        border: 2px solid #B67D27;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .lineFo:after {
+        content: '';
+        position: absolute;
+        width: 98px;
+        border: 2px solid #B67D27;
+        margin-left: 11px;
+        margin-top: -33px;
+        }
+    
+
+    /*CONTACT*/
+
+    #contact > .box > .box3 {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #contact > .box > .box2 > .title {
+       
+        margin-top: 100px;
+    }
+    #contact > .box > .box2 > .title > h2{
+        font-size: 3rem;
+    }
+
+    #contact > .box > .box2 > .title > a{
+        font-size: 1.2rem;
+    }
+
+    #contact > .box > .box3 > .formulaire{
+        width: 90%;
+       
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np {
+        display: flex;
+        width: 100%;
+        justify-content: inherit;
+        margin: 0px 0px 0px 11px;
+     
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .prenom{
+        margin-left: 12px;
+
+    }
+
+    input[type=submit] {
+        text-align: left;
+        margin-left: 5px;
+    }
+        
+
+    #contact > .box > .box3 > .formulaire > form{
+        align-items: flex-start;
+        justify-content: inherit;
+        margin-left: 10px;  
+    }
+
+    #contact > .box > .box3 > .map{
+        width: 100%;
+    
+    }
+    #contact > .box > .box3 > .map > img{
+        width: 100%;
+    }
+
+   /*FOOTER*/
+
+   footer > .tFooter{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+   }
+   footer > .tFooter > .footer1{
+       min-height: 25vh;
+       align-items: flex-end;
+   }
+   footer > .tFooter > .footer1 > .title > h2{
+       text-align: center;
+   }
+   footer > .tFooter > .footer2{
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       width: 80%;
+       min-height: 75vh;
+       
+   }
+
+   .tFooter > .footer2 > .company{
+       justify-content: center;
+       text-align: center;
+       width: 70%;
+   }
+
+   .tFooter > .footer2 > .company > p {
+    width: 100%;
+}
+
+   .tFooter > .footer2 > .contact {
+       text-align: center;
+       width: 100%;
+   }
+
+   .tFooter > .footer2 >.legales {
+       align-items: center;
+       text-align: center;
+       width: 100%;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   
+   
+   
+    #services > .mainbox > .box > .content > .text > .melange > .line{
+        width: 40vw;
+        margin: 0px 5px 0px 5px;
+    }
+
+
+
+    #contact > .box > .box3 > .formulaire > form > .np {
+        
+        flex-direction: column;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .nom {
+        width: 80%;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    #contact > .box > .box3 > .formulaire > form > .np > .prenom {
+        width: 80%;
+        margin-left: 0px; 
+        margin-bottom: 10px;
+    }
+    #contact > .box > .box3 > .map{
+        width: 100%;
+    
+    }
+    #contact > .box > .box3 > .map > img{
+        width: 100%;
+    }
 }
