@@ -32,8 +32,6 @@ p{
 }
 
 
-=======
-    }
 
 @font-face {
     font-family: "OpenSans-Regular";
@@ -49,7 +47,7 @@ body{
 
 header{
     width: 100%;
-    min-height: 73vh;
+    min-height: 100vh;
     background: radial-gradient(61.59% 119.66% at 100% 38.41%, rgba(53, 43, 43, 0.77) 0%, #2E2C2C 86.77%);
     align-items: center;
 }
@@ -73,8 +71,10 @@ nav > .iconeburger > a > i {
 
 nav > ul{
     display: flex;
-    padding: 0;
+    align-items: center;
+    padding-left: 41px;
     width: 100%;
+    margin: 20px 0px;
 }
 
 nav > ul > li{
@@ -99,20 +99,63 @@ nav > ul > li > a:hover{
     color: #B67D27;
 }
 
-.none{
-    display: none !important;
-}
-
 .fa-align-left{
     display: none;
     font-size: 1.4rem;
     margin-right: 10px;
     cursor: pointer;
+    color: white;
 }
+
+.fa-xmark{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.none{
+    display: none !important;
+}
+
+#mobileNavArea{
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 0.2s ease 0s;
+}
+
+.openNav{
+    height: 300px !important;
+}
+
+#mobileNavArea > ul > li {
+    list-style-type: none;
+    margin: 10px 0px;
+}
+#mobileNavArea > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+
+.none2 {
+    display: none ;
+}
+
 
 .icone{
     display: flex;
     align-items: center;
+    padding-right: 50px;
 }
 
 .icone > a{
@@ -134,6 +177,8 @@ nav > ul > li > a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .container > .iconetelephone{
@@ -150,7 +195,7 @@ nav > ul > li > a:hover{
     text-decoration: none;
 }
 
-.container > .iconetelephone > a > i{
+.container > .container2 > .iconetelephone > a > i{
     border-radius: 50%;
     background: #e5e5e5;
     padding: 20px 20px;
@@ -166,13 +211,13 @@ nav > ul > li > a:hover{
 
 
 .container > .gauche{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0px 20px;
+    padding: 0px 0px 0px 79px;
     position: relative;
-    top: -5%;
+    
 }
 
 .container > .gauche > h1{
@@ -239,13 +284,13 @@ nav > ul > li > a:hover{
 .container > .image{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 50%;
     align-items: flex-end;
 }
 
 .container > .image > img{
-    width: 545px;
-    height: 605px;
+    width: 80%;
+    min-height: 100vh;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 
 }
@@ -295,9 +340,11 @@ nav > ul > li > a:hover{
 .nosrealisations > #carousel > #slide1 > .visu > .container > .title{
     display: flex;
     width: 100%;
-    height: 17vh;
-    align-items: center;
-    margin: 20px 0px;
+    height: 25vh;
+    align-items: flex-end;
+    margin: 24px 0px 0px 0px;
+    padding-left: 76px;
+
 }
 
 .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
@@ -309,7 +356,6 @@ nav > ul > li > a:hover{
     font-style: normal;
     margin: 0;
     width: 100%;
-    padding: 0px 20px;
     display: flex;
 }
 
@@ -324,12 +370,11 @@ nav > ul > li > a:hover{
 }
 
 .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
-    width: 60%;
+    width: 65%;
     height: 50vh;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    padding: 0px 20px;
+
 }
 
 .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
@@ -340,7 +385,7 @@ nav > ul > li > a:hover{
 
 .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
     width: 80%;
-    height: 400px;
+    height: 50vh;
     background-image: url('../img/realisation_3.jpg');
     background-size: cover;
     background-position: center;
@@ -355,7 +400,7 @@ nav > ul > li > a:hover{
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding: 0px 20px;
+    padding-right: 100px;
 }
 
 .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
@@ -517,13 +562,13 @@ nav > ul > li > a:hover{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 50px 0px;
+    margin: 150px 0px 50px 0px
 }
 
 #services > .mainbox > .mainTitle >.title{
     align-items: flex-end;
     display: flex;
-    margin: 0px 0px 0px 75px;
+    margin: 0px 0px 0px 70px;
     
     
 }
@@ -582,13 +627,14 @@ nav > ul > li > a:hover{
 
 #services > .mainbox > .mainTitle >.title2 > h2{
     
-    margin: 0px 75px;
+    margin-right: 20px;
     font-size: 5rem;
 }
 
 #services > .mainbox > .box {
    width: 45%;
    margin-right: 10px;
+  
 }
 
 #services > .mainbox > .box > .content > .text > p{
@@ -642,12 +688,14 @@ nav > ul > li > a:hover{
     flex-direction: column;
     width: 100%;
     justify-content: center;
+    margin: 150px 0px 0px 0px
 }
 
 .box2{
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-left: -10px;
 
 }
 #contact > .box  > .box2 > .title{
@@ -686,7 +734,7 @@ nav > ul > li > a:hover{
 #contact > .box > .box3 > .formulaire{
     display: flex;
     width: 50%;
-    margin: 0px 0px;
+    margin-left: -10px;
     
     
 }
@@ -841,7 +889,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 35px;
+    margin: 0px 35px 0px 35px;
     
 }
 
@@ -906,18 +954,22 @@ footer{
 
     /*SERVICES*/
 
+    .fa-align{
+        display: block;
+    }
+
     #services > .mainbox > .mainTitle{
         flex-direction: column-reverse;
         margin: 20px 0px;
     }
     #services > .mainbox > .mainTitle > .title{
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 15px;
         
     }
 
     #services > .mainbox > .mainTitle > .title2 > h2{
-        margin: 0px 45px;
+        margin: 45px 45px 0px 32px;
         font-size: 3.2rem;
     }
 
@@ -977,7 +1029,7 @@ footer{
 
     #contact > .box > .box2 > .title {
        
-        margin-top: 100px;
+        margin-top: 50px;
     }
     #contact > .box > .box2 > .title > h2{
         font-size: 3rem;
@@ -1014,7 +1066,7 @@ footer{
     #contact > .box > .box3 > .formulaire > form{
         align-items: flex-start;
         justify-content: inherit;
-        margin-left: 10px;  
+        margin: 0px 0px 0px 40px;
     }
 
     #contact > .box > .box3 > .map{
@@ -1031,7 +1083,7 @@ footer{
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       min-height: 100vh;
+       min-height: 110vh;
    }
    footer > .tFooter > .footer1{
        min-height: 25vh;
@@ -1080,6 +1132,10 @@ footer{
         margin: 0px 5px 0px 5px;
     }
 
+    #services > .mainbox > .box > .content > .text > .melange > p{
+        font-size: 0.813rem;
+    }
+
 
 
     #contact > .box > .box3 > .formulaire > form > .np {
@@ -1105,18 +1161,42 @@ footer{
     #contact > .box > .box3 > .map > img{
         width: 100%;
     }
+
+    #contact > .box > .box3 > .formulaire > form{
+        margin: 0px 0px 0px 14px;
+    }
+
+    #services > .mainbox > .mainTitle > .title2 > h2{
+        margin: 50px 45px 0px 20px;
+    }
+
+    #services > .mainbox > .mainTitle > .title{
+        margin-left: 1px;
+    }
 }
 
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 1024px){
-
+@media screen and (max-width: 1050px){
 
     .fa-align-left{
+        display: block;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+
+    nav > .iconeburger{
+        margin-left: 40px;
+        display: flex;
+    }
+
+    nav > ul {
         display: none;
     }
 
+   
     .fa-phone-flip{
         display: none;
     }
@@ -1129,13 +1209,11 @@ footer{
         display: none;
     }
 
-    nav > .iconeburger{
-        display: none;
-    }
+    
 
     .container > .image > img{
-        height: 909px;
-        width: 529px;
+        min-height: 100vh;
+        width: 125%;
     }
 
     .container > .image{
@@ -1144,23 +1222,33 @@ footer{
 
     .container > .gauche > p{
         padding: 10px 0px;
+        z-index: 1;
     }
 
 
     .container > .gauche > h1 {
-        line-height: 107px;
-        font-size: 69px;
+        line-height: 90px;
+        font-size: 6rem;
+        z-index: 1;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .title {
         margin: 0;
-        height: 9vh;
+        height: 30vh;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2 {
         font-size: 55px;
+        padding: 0px;
     }
 
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche > i{
+        font-size: 2rem;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
+        font-size: 2rem;
+    }
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd{
         margin: 40px 0px;
     }
@@ -1184,11 +1272,17 @@ footer{
 @media  screen and (max-width:800px) {
 
     .fa-align-left{
-        display: block;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     nav > .iconeburger{
+        margin-left: 0px ;
         display: flex;
+    }
+
+    .icone{
+        padding-right: 5px;
     }
 
     header{
@@ -1200,18 +1294,22 @@ footer{
     }
     
     .container > .image > img{
-        width: 401px;
-        height: 684px;
+        width: 100%;
+        
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
         width: 100%;
         height: 222px;
+        clip-path: inherit;
     }
-
+    .container > .gauche{
+        padding-left: 25px;
+    }
     .container > .gauche > h1 {
         font-size: 84px;
         line-height: 64px;
+        z-index: 1;
     }
 
     .container > .gauche > p{
@@ -1226,9 +1324,7 @@ footer{
         font-size: 24px;
     }
 
-    .nosrealisations > #carousel > #slide1 > .visu{
-        height: 89vh;
-    }
+   
 
     .nosrealisations > #carousel > #slide1 > .visu > .container{
         flex-direction: column;
@@ -1248,32 +1344,38 @@ footer{
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche >.image{
         width: 100%;
+        margin-left: 30px;
     }
 
     .nosréalisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containergauche >.image > img{
         width: 97%;
         height: 220px;
+        clip-path: inherit;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
-        margin: 30px 0px;
+        width: 80%;
+        margin: 0px 33px;
+        padding-right: 0px;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .firstparaph > p{
         text-align: left;
         margin: 20px 0px;
+        width: 80%;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
         width: 84%;
         display: block;
         height: 10vh;
-        margin: 20px 0px;
+        margin: 50px 0px;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > p{
         text-align: left;
         position: relative;
+        width: 80%;
         top: -23%;
         right: -5%;
     }
@@ -1297,6 +1399,9 @@ footer{
         font-size: 30px;
     }
 
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button {
+        margin: 0%;
+    }
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .button > button{
         text-align: left;
     }
@@ -1316,32 +1421,52 @@ footer{
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .title{
-        height: 11vh;
+        height: 21vh;
+        padding-left: 30px;
     }
 
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
+        padding: 0;
+    }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
 
     .fa-align-left{
-        display: block;
+        
+        margin-left: 10px;
+        margin-top: 10px;
     }
-
+    nav > .iconeburger{
+        margin-left: 10px;
+    }
     .fa-phone-flip{
         display: flex;
         position: relative;
-        right: 44px;
-    }
+        margin: 0px 50px 50px 0px;
+}
 
     .container > .image > img{
         display: none;
     }
 
-    .container > .iconetelephone{
-        display: flex;
-        top: 289px;
-        right: 41px;
+    .container > .gauche > .button > button{
+        width: 100%;
     }
+
+    .container > .container2 >.iconetelephone{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container > .container2{
+        width: 100%;
+        display: flex;
+        min-height: 100vh;
+}
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
         right: 1%;
@@ -1356,7 +1481,7 @@ footer{
     }
 
     .container > .gauche{
-        padding: 0px 10px;
+        padding: 0px 22px;
         height: 60vh;
     }
 
@@ -1377,7 +1502,11 @@ footer{
     }
 
     .container > .gauche > .button > button > a{
-        font-size: 19px;
+        font-size: 1rem;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .title{
+        padding-left: 30px;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .title > h2{
@@ -1396,9 +1525,6 @@ footer{
         font-size: 20px;
     }
 
-    .nosrealisations > #carousel > #slide1 > .visu > .container > span{
-        top: 107%;
-    }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconegauche{
         top: -31%;
@@ -1407,7 +1533,7 @@ footer{
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit{
         right: -1%;
-        top: 14%;
+        top: 40%;
     }
 
     .nosrealisations > #carousel > #slide1 > .visu > .container >.lesdeuxcontainergd > .containerdroit > .twoparaph{
@@ -1431,6 +1557,14 @@ footer{
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit > .twoparaph > #iconedroit > i{
         font-size: 25px;
+    }
+
+    .icone{
+        padding: 0;
+    }
+
+    .nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containerdroit{
+        margin: 0px 19px;
     }
 }
 
