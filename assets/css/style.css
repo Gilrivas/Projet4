@@ -1167,11 +1167,17 @@ footer{
     }
 
     #services > .mainbox > .mainTitle > .title2 > h2{
-        margin: 50px 45px 0px 20px;
+        margin: 60px 45px 0px 20px;
     }
 
     #services > .mainbox > .mainTitle > .title{
         margin-left: 1px;
+    }
+    input[type=submit]{
+        margin-bottom: 80px;
+    }
+    #contact > .box > .box3 > .formulaire > form > .lineFo:after{
+        margin-top: -80px;
     }
 }
 
@@ -1467,6 +1473,9 @@ footer{
         display: flex;
         min-height: 100vh;
 }
+.nosrealisations > #carousel > #slide1 > .visu > .container > .lesdeuxcontainergd > .containergauche{
+    margin-bottom: 15px;
+}
 
     .nosrealisations > #carousel > #slide1 > .visu > .container > span > ul{
         right: 1%;
@@ -1483,16 +1492,17 @@ footer{
     .container > .gauche{
         padding: 0px 22px;
         height: 60vh;
+        width: 100%;
     }
 
     .container > .gauche > h1{
-        font-size: 92px;
+        font-size: 50px;
         line-height: 73px;
     }
 
     .container > .gauche > p{
         font-size: 12px;
-        width: 82%;
+        width: 100%;
         padding: 25px 0px;
     }
 
